@@ -1,0 +1,29 @@
+ian_mcmahon@Ians-PC:~$ mkdir learn_git_again
+
+ian_mcmahon@Ians-PC:~$ cd learn_git_again
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ touch third.txt
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ git init
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ git add third.txt
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ git commit -m "adding third.txt"
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ touch fourth.txt
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ git add fourth.txt
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ git commit -m "adding fourth.txt"
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ rm third.txt
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ git add .
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ git commit -m "removing third.txt"
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ git log
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ git config --global core.pager cat
+
+ian_mcmahon@Ians-PC:~/learn_git_again$ git config --global --list
