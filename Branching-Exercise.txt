@@ -1,0 +1,24 @@
+Part I
+
+Answer the following questions:
+
+- What git command creates a branch?
+
+git checkout -b
+
+
+- What is the difference between a fast-forward and recursive merge?
+
+fast-forward merge occurs when all changes that you are merging happened in chronilogical order without conflicts. fast forwards can only happen if there have not been commits on the original branch while the new branch is being worked on.
+
+- What git command changes to another branch?
+
+git checkout
+
+- What git command deletes a branch?
+
+git branch -d
+
+- How do merge conflicts happen?
+
+When the branches you are merging contain conflicting information involving the same file
